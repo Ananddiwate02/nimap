@@ -3,7 +3,7 @@ Spring Boot Project
 Introduction:
 This document outlines the steps to set up and run a Spring Boot project that performs CRUD operations on Categories and Products, including testing with Postman. The project also demonstrates server-side pagination and linking of products with categories.
 
-#Steps to Run the Code:
+# Steps to Run the Code:
 1.Step 1: Create a Spring Boot project using Spring Initializr or your preferred IDE.
 Dependencies:
 oSpring Web
