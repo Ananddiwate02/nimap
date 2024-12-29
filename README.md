@@ -3,7 +3,7 @@ Spring Boot Project
 Introduction:
 This document outlines the steps to set up and run a Spring Boot project that performs CRUD operations on Categories and Products, including testing with Postman. The project also demonstrates server-side pagination and linking of products with categories.
 
-Steps to Run the Code:
+# Steps to Run the Code:
 1.Step 1: Create a Spring Boot project using Spring Initializr or your preferred IDE.
 Dependencies:
 oSpring Web
@@ -11,7 +11,7 @@ oSpring Data JPA
 oMySQL Driver
 oSpring Boot DevTools
 oHibernate
-2.Step 2: Set up application.properties to connect with MySQL or H2 for testing(I have Used H2).
+2.Step 2: Set up application.properties to connect with MySQL or H2 for testing.
 3.Step 3:Create Category and Product Entities - Define Category and Product entities.
 4.Step 4: Create Repository Interfaces - Set up repository interfaces for Category and Product.
 5.Step 5:Create Controller for CRUD Operations - Create a controller for performing Create, Read, Update, Delete operations for both categories and products.
@@ -42,11 +42,3 @@ URL: http://localhost:8080/api/products/1
 Method: GET
 URL: http://localhost:8080/api/products/1
 Method: DELETE
-
-
-# Machine Test:
-To run a machine test for an API, use JUnit with Spring Boot Test. Here's the outline:
-1. Set up the test: Use @SpringBootTest for integration tests.
-2. Create a test class: Write a test class using MockMvc to simulate API calls.
-3. Write test logic: Use mockMvc.perform() to test endpoints and validate responses.
-4. Test for Categories and Product
